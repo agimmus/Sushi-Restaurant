@@ -1,0 +1,101 @@
+body {
+    background-color: #F8EEDB;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    margin-right: 20px; /
+}
+
+.navbar-brand .sushi-text {
+    margin-left: 10px; 
+}
+
+.navbar-nav .nav-link {
+    color: black; 
+    transition: color 0.3s;
+}
+
+.navbar-nav .navbar-nav .nav-link.active {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ECE4D2;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid black;
+}
+
+.order-now-btn {
+    background-color: black;
+    color: white; /* Set text color to white */
+}
+
+.order-now-btn:hover {
+    background-color: #333;
+}
+
+
+.nav-link:hover{
+    background-color: #EAE3D1;
+}
+
+
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-link li a{
+
+
+ 
+  font-family: "Helvetica Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 5;
+  font-style: normal;
+
+
+}
+
+h1 h2 h3 h4 h5 p{
+    font-family: Rubik;
+}
+
+
+
+.text-large{
+        font-size: 1.777em;
+
+}
+
+
+
+@media (min-width: 574px) {
+    .page-widget-image{
+        margin-top: 3rem;
+    }
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+.back-to-top span {
+	color: #fff;
+	font-size: 3rem;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+	background-color: #be1a3b;
+}
+.back-to-top:hover span {
+	transform: translateY(-4px);
+}
